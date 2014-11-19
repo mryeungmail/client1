@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bt_watchAllVOD"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="모든 VOD목록보기" />
+
+    <Button
+        android:id="@+id/bt_watchVODAgain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="VOD 다시보기" />
+
+    
+</LinearLayout>

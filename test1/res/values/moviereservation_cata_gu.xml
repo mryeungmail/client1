@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="category_mr_gu">
+        <item>고르세요</item>
+        <item>1.해운대</item>
+        <item>2.동래</item>
+        <item>3.부산대</item>
+        
+        
+    </string-array>
+
+</resources>
