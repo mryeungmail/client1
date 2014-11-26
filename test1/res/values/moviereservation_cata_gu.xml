@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="category_mr_gu">
+        <item>고르세요</item>
+        <item>1.부산대점</item>
+        <item>2.해운대점</item>
+        <item>3.서면점</item>
+        
+        
+    </string-array>
+
+</resources>
