@@ -21,7 +21,7 @@ public class movieReservation_seat extends Activity {
 	TextView tv_seatNum;
 	TextView tv_seatMoney;
 	Button bt_seatPayment;
-
+	//
 	int seatMoney = 10000;
 	int seatNum = 0;
 	int sumOfseatMoney = 0;
