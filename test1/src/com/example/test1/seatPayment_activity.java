@@ -3,6 +3,7 @@ package com.example.test1;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -15,6 +16,17 @@ public class seatPayment_activity extends Activity {
 	Button bt_payment_seatPayment;
 	TextView tv_seatIdxList;
 	TextView tv_seatIdx;
+	
+	int real_seatNum;
+    int real_seatMoney; 
+    int real_seatNumArr[]=new int[30];;
+	
+	
+	int Selected_cinema;
+	int Selected_movie;
+	int Selected_time;
+	
+	
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -27,12 +39,19 @@ public class seatPayment_activity extends Activity {
 	    tv_seatIdx = (TextView)findViewById(R.id.tv_seatIdx);
 	    
 	    Intent t = getIntent();
-	    int real_seatNum = t.getExtras().getInt("real_seatNum");
-	    int real_seatMoney = t.getExtras().getInt("real_seatMoney"); 
-	    int real_seatNumArr[] = new int[30];
+	    real_seatNum = t.getExtras().getInt("real_seatNum");
+	    real_seatMoney = t.getExtras().getInt("real_seatMoney"); 
+	    
 	    for(int i=0; i<30; i++) {
 	    	real_seatNumArr[i] = t.getExtras().getInt("real_seatNumArr"+i);
 	    }
+	    Selected_cinema = t.getIntExtra("Selected_cinema",-1);
+		Selected_movie = t.getIntExtra("Selected_movie",-1);
+		Selected_time = t.getIntExtra("Selected_time",-1);
+		
+		Log.e("Selected_cinema",""+Selected_cinema);
+		Log.e("Selected_movie",""+Selected_movie);
+		Log.e("Selected_time",""+Selected_time);
 	    
 	    tv_payment_seatNum.setText(real_seatNum+" 명");
 	    tv_payment_seatMoney.setText(real_seatMoney+" 원");
@@ -47,8 +66,8 @@ public class seatPayment_activity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent t = new Intent(seatPayment_activity.this, MainActivity.class);
-				startActivity(t);
+				//Intent t = new Intent(seatPayment_activity.this, MainActivity.class);
+				//startActivity(t);
 				finish();
 				Toast.makeText(seatPayment_activity.this, "결제완료", Toast.LENGTH_SHORT).show();
 			}
