@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <poiData>
+    <poiId>1</poiId>
+    <type>Cinema</type>
+    <name>CGV</name>
+    <position>
+      <lat>35.221217</lat>
+      <lon>128.690812</lon>
+    </position>
+    <description>www.cgv.co.kr</description>
+  </poiData>
+  <poiData>
+    <poiId>2</poiId>
+    <type>Cinema</type>
+    <name>Lotte Cinema</name>
+    <position>
+      <lat>35.224773</lat>
+      <lon>128.681807</lon>
+    </position>
+    <description>www.lottecinema.co.kr</description>
+  </poiData>
+  <poiData>
+    <poiId>3</poiId>
+    <type>경상남도 창원시 성산구 용지로 58 메가박스 창원점</type>
+    <name>Megabox</name>
+    <position>
+      <lat>35.202381</lat>
+      <lon>128.6969955</lon>
+    </position>
+    <description>www.megabox.co.kr</description>
+  </poiData>
+    <poiData>
+    <poiId>4</poiId>
+    <type>부산광역시 금정구 장전로12번길 55 CGV 부산대점</type>
+    <name>CGV</name>
+    <position>
+      <lat>35.230131</lat>
+      <lon>129.088020</lon>
+    </position>
+    <description>www.cgv.co.kr</description>
+      <poiData>
+    <poiId>5</poiId>
+    <type>부산광역시 금정구 중앙대로 1607 메가박스 오투점</type>
+    <name>Megabox</name>
+    <position>
+      <lat>35.228324</lat>
+      <lon>129.089777</lon>
+    </position>
+    <description>www.megabox.co.kr</description>
+  </poiData>
+  </poiData>
+</root>

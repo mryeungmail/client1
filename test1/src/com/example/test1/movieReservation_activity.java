@@ -106,7 +106,7 @@ public class movieReservation_activity extends Activity {
 
 			Log.e("myResult_Selected_cinema", "" + builder);
 
-			new Thread(new Runnable() {
+			/*new Thread(new Runnable() {
 				public void run() {
 					// TODO Auto-generated method stub
 					// check
@@ -128,7 +128,7 @@ public class movieReservation_activity extends Activity {
 								}
 							});
 				}
-			}).start();
+			}).start();*/
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
